@@ -1,0 +1,111 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.home-bg{
+    background-image: url('../src/components/assets/Dark\ Pictures\ _\ Freepik.jpg');
+    width: 100%;
+    height:705px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+.search{
+
+    width: 20%;
+    height: 30px;
+    padding: 10px;
+    margin-left: 38%;
+    margin-top: 5%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.search-btn{
+
+    width: 5%;
+    height: 50px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(121, 121, 247);
+    border: 1px solid rgb(121, 121, 247);
+    border-radius:20px ;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+    background-color: rgb(105, 96, 239)
+}
+
+.container{
+    width: 57%;
+    height: 400px;
+    margin-left:21% ;
+    margin-top: 5%;
+    background: rgba(2, 82, 96, 0.54);
+box-shadow: 0 8px 32px 0 rgba(20, 24, 84, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba(235, 232, 232, 0.18);
+}
+
+.location{
+    text-align: center;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:40px;
+}
+
+.icon{
+    width: 100px;
+    margin-left: 45%;
+    margin-top:-20px ;
+
+}
+
+.temp{
+
+font-size: x-large;
+margin-left: 15%;
+color: #fff;
+
+}
+.feels{
+    font-size: x-large;
+    margin-left: 15%;
+    color: #fff;
+    
+}
+
+.humidity{
+    font-size: x-large;
+margin-left: 15%;
+color: #fff;
+
+}
+
+.discrip{
+    font-size: x-large;
+    color: #fff;
+    margin-left: 60%;
+    margin-top: -155px;
+}
+
+.sea{
+    font-size: x-large;
+    color: #fff;
+    margin-left: 60%;
+    
+}
+
+.pressure{font-size: x-large;
+    color: #fff;
+    margin-left: 60%;}
